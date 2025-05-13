@@ -1,12 +1,12 @@
 # About
 Online Spa Reservations
-SpaEase is a web application designed to make it easier for customers to book spa services online. This project is part of a capstone project that aims to help digitize spa business operations, improve efficiency, and provide a better user experience.
+web application designed to make it easier for customers to book spa services online. This project is part of a capstone project that aims to help digitize spa business operations, improve efficiency, and provide a better user experience.
 
 # Key Features
-Spa Service Reservation
+- Spa Service Reservation
 Customers can select services and for therapists, schedules, customers can directly select the phone number corresponding to the spa venue which will be directly transferred to a private chat.
 
-View Spa Locations Based on Nearby Branches
+- View Spa Locations Based on Nearby Branches
 Customers can view the location map of spa branches based on their nearest location.
 
 
