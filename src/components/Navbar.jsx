@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className="navbar w-full py-5 bg-white lg:fixed z-10 shadow-lg">
       <div className="container flex justify-between items-center mx-auto">
         <div className="navbar-logo  w-full flex justify-center sm:justify-start">
-          <img className="w-30" src="/public/asset/logo-coklat.png" alt="" />
+          <img className="w-30" src="../asset/logo-coklat.png" alt="" />
         </div>
         <ul>
           <li
