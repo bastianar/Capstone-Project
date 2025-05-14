@@ -2,7 +2,7 @@ const ServicePage = () => {
   return (
     <>
       <div className="thumbNail w-full display flex justify-center items-center py-10 sm:py-30 lg:py-45">
-        <img src="/public/asset/tv-2/Service.png" alt="" className="w-xs sm:w-xl md:w-3xl lg:w-5xl xl:w-7xl" />
+        <img src="../asset/tv-2/Service.png" alt="" className="w-xs sm:w-xl md:w-3xl lg:w-5xl xl:w-7xl" />
       </div>
 
       <div className="ourService bg-white w-full">
@@ -34,7 +34,7 @@ const ServicePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-10 px-4 2xl:px-30 py-10 w-full justify-items-center">
             <div className="service-item w-70 xl:w-100 justify-items-center-safe text-center">
               <img
-                src="/public/asset/tv-2/Reflexology.png"
+                src="../asset/tv-2/Reflexology.png"
                 alt=""
                 className="w-90 h-auto rounded-lg mb-4"
                 data-aos="flip-up"
@@ -75,7 +75,7 @@ const ServicePage = () => {
             </div>
             <div className="service-item w-70 xl:w-100 justify-items-center-safe text-center">
               <img
-                src="/public/asset/tv-2/Body Massage.png"
+                src="../asset/tv-2/Body Massage.png"
                 alt=""
                 className="w-90 h-auto rounded-lg mb-4"
                 data-aos="flip-up"
@@ -116,7 +116,7 @@ const ServicePage = () => {
             </div>
             <div className="service-item w-70 xl:w-100 justify-items-center-safe text-center">
               <img
-                src="/public/asset/tv-2/Body Scrub.png"
+                src="../asset/tv-2/Body Scrub.png"
                 alt=""
                 className="w-90 h-auto rounded-lg mb-4"
                 data-aos="flip-up"
@@ -157,7 +157,7 @@ const ServicePage = () => {
             </div>
             <div className="service-item w-70 xl:w-100 justify-items-center-safe text-center">
               <img
-                src="/public/asset/tv-2/Kerokan.png"
+                src="../asset/tv-2/Kerokan.png"
                 alt=""
                 className="w-90 h-auto rounded-lg mb-4"
                 data-aos="flip-up"
@@ -198,7 +198,7 @@ const ServicePage = () => {
             </div>
             <div className="service-item w-70 xl:w-100 justify-items-center-safe text-center">
               <img
-                src="/public/asset/tv-2/Face Massage.png"
+                src="../asset/tv-2/Face Massage.png"
                 alt=""
                 className="w-90 h-auto rounded-lg mb-4"
                 data-aos="flip-up"

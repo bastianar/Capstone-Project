@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const HomePage = () => {
   let navigate = useNavigate();
 
-  const images = ["/public/asset/tv-1/Group 17.png", "/public/asset/tv-1/Group 18.png", "/public/asset/tv-1/Group 19.png", "/public/asset/tv-1/Group 20.png"];
+  const images = ["../asset/tv-1/Group 17.png", "../asset/tv-1/Group 18.png", "../asset/tv-1/Group 19.png", "../asset/tv-1/Group 20.png"];
   const [current, setCurrent] = useState(0);
 
   // Auto-slide effect
@@ -32,9 +32,9 @@ const HomePage = () => {
         </div>
         <div className="wrapper h-120 sm:h-auto w-80 sm:w-120 mt:20 lg:mt-50 overflow-hidden">
           <div className="hero-image my[-100px]">
-            <img src="/public/asset/tv-1/Mask group.png" className="w-200" />
-            <img src="/public/asset/tv-1/Mask group (2).png" className="w-200" />
-            <img src="/public/asset/tv-1/Mask group (1).png" className="w-200" />
+            <img src="../asset/tv-1/Mask group.png" className="w-200" />
+            <img src="../asset/tv-1/Mask group (2).png" className="w-200" />
+            <img src="../asset/tv-1/Mask group (1).png" className="w-200" />
           </div>
         </div>
       </div>
