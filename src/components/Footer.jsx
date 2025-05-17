@@ -33,10 +33,10 @@ const Footer = () => {
           <p className="text-2xl lg:text-3xl font-base text-center mb-5">Social Media:</p>
           <div className="flex gap-5">
             <a href="https://www.instagram.com/pesonaspa.id/">
-              <img src="/public/asset/instagram.png" alt="" className="w-6 lg:w-8 " />
+              <img src="../asset/instagram.png" alt="" className="w-6 lg:w-8 " />
             </a>
             <a href="https://www.tiktok.com/@pesonafamilyspa">
-              <img src="/public/asset/tiktok.png" alt="" className="w-6 lg:w-8 " />
+              <img src="../asset/tiktok.png" alt="" className="w-6 lg:w-8 " />
             </a>
           </div>
         </div>

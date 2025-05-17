@@ -18,8 +18,8 @@ const ServicePage = () => {
             data-aos-once="false"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center text-black">OUR SERVICES</h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-4xl text-center font-light mt-4 text-black">
+            <h1 className="text-3xl sm:text-3xl lg:text-4xl font-bold text-center text-black">OUR SERVICES</h1>
+            <p className="text-sm sm:text-base md:text-lg lg:text-2xl text-center font-light mt-4 text-black">
               PESONA Spa provide healing massages for body and circulation.
               <br />
               plus reflexology to relieve stress and revitalize. Enjoy our warm

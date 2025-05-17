@@ -53,18 +53,18 @@ const HomePage = () => {
           data-aos-once="false"
           data-aos-anchor-placement="bottom-bottom"
         >
-          <p className="text-2xl md:text-6xl font-extrabold text-center mb-5">
+          <p className="text-2xl md:text-4xl font-extrabold text-center mb-5">
             A COZY SPOT TO REFRESH YOUR BODY,
             <br /> RELAX YOUR MIND, AND RECHARGE YOUR VIBE
           </p>
-          <p className="text-base md:text-4xl font-light text-center">
+          <p className="text-base md:text-2xl font-light text-center">
             Inspired by traditional massage, Pesona Spa brings you a chill and unforgettable experience,
             <br />
             from therapy and family massages to reflexology and safe car.
           </p>
         </div>
         <div
-          className="bg-[#5e3023] w-30 h-max mt-5 mb-10 rounded-lg hover:bg-[#88574c] transition-all duration-200"
+          className="bg-[#5e3023] w-30 h-max mt-15 mb-10 rounded-lg hover:bg-[#88574c] transition-all duration-200"
           data-aos="fade-up"
           data-aos-offset="100"
           data-aos-delay="100"
@@ -74,7 +74,7 @@ const HomePage = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-bottom"
         >
-          <button type="button" className="p-[10px] w-30 cursor-pointer" onClick={() => navigate("/service")}>
+          <button type="button" className="p-[10px] text-xl w-30 cursor-pointer" onClick={() => navigate("/service")}>
             Read more
           </button>
         </div>
@@ -118,15 +118,15 @@ const HomePage = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-bottom"
         >
-          <p className="text-2xl md:text-6xl font-extrabold text-center mb-5">RESERVATION TREATMENT</p>
-          <p className="text-base md:text-4xl font-light text-center">
+          <p className="text-2xl md:text-4xl font-extrabold text-center mb-5">RESERVATION TREATMENT</p>
+          <p className="text-base md:text-2xl font-light text-center">
             PESONA Family Spa & Reflexology offers
             <br />
             uplifting experiences to resore body and soul.
           </p>
         </div>
         <div
-          className="bg-[#5e3023] w-30 h-max mt-5 mb-10 rounded-lg hover:bg-[#88574c] transition-all duration-200"
+          className="bg-[#5e3023] mt-15 w-30 h-max mb-10 rounded-lg hover:bg-[#88574c] transition-all duration-200"
           data-aos="fade-up"
           data-aos-offset="100"
           data-aos-delay="100"
@@ -136,7 +136,7 @@ const HomePage = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-bottom"
         >
-          <button type="button" className="p-[10px] w-30 cursor-pointer">
+          <button type="button" className="p-[10px] text-lg w-30 cursor-pointer">
             Reservation
           </button>
         </div>
