@@ -94,12 +94,12 @@ const HomePage = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-bottom"
         >
-          <img src={images[current]} className="w-80 h-80 sm:w-150 md:w-180 lg:w-250 lg:h-120 bg-top" alt={`Slide ${current + 1}`} />
+          <img src={images[current]} className="w-80 h-80 sm:w-150 md:w-180 lg:w-250 lg:h-120 object-cover bg-top" alt={`Slide ${current + 1}`} />
         </div>
 
         <div className="dots w-full rounded-b-full flex gap-3 justify-center mt-5">
           {images.map((_, index) => (
-            <span key={index} className={`dot w-4 h-4 rounded-full cursor-pointer transition-all duration-300 border-3 ${index === current ? "bg-[#5e3023]" : "bg-white"}`} onClick={() => setCurrent(index)}></span>
+            <span key={index} className={`dot w-3 sm:w-4 h-3 sm:h-4 rounded-full cursor-pointer transition-all duration-300 border-3 ${index === current ? "bg-[#5e3023]" : "bg-white"}`} onClick={() => setCurrent(index)}></span>
           ))}
         </div>
       </div>
