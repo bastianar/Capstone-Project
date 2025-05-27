@@ -136,7 +136,7 @@ const HomePage = () => {
           data-aos-once="false"
           data-aos-anchor-placement="top-bottom"
         >
-          <button type="button" className="p-[10px] text-lg w-30 cursor-pointer">
+          <button type="button" className="p-[10px] text-lg w-30 cursor-pointer" onClick={() => navigate("/contact")}>
             Reservation
           </button>
         </div>
